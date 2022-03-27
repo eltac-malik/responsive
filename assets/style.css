@@ -1,0 +1,383 @@
+*
+{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.header
+{
+    background-color: #212529;
+    height: 600px;
+}
+
+.container-1
+{
+    padding: 0 10%;
+}
+
+
+.nav-bar
+{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav-bar p
+{
+    font-size: 24px;
+}
+
+.nav-bar ul
+{
+    display: flex;
+}
+
+.nav-bar ul li
+{
+    list-style: none;
+    margin: 0 10px;
+}
+
+.nav-bar ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.fa-bars
+{
+    display: none;
+}
+
+.main-head
+{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.text-content
+{
+    width: 50%;
+    color: white;
+}
+
+.text-content h1
+{
+    font-size: 48px;
+}
+
+.text-content p
+{
+    font-size: 16px;
+    color: #606870;
+    font-weight: bold;
+}
+
+.img-content
+{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.img-content img
+{
+    width: 400px;
+}
+
+.btn-primary
+{
+    margin-right: 10px;
+}
+
+.first-content
+{
+    width: 100%;
+    display: flex;
+    padding: 80px 10% 0 10%;
+    justify-content: center;
+}
+
+.first-content h2
+{
+    width: 33%;
+    font-weight: bold;
+}
+
+.crds
+{
+    width: 66%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.crd
+{
+    width: 48%;
+    margin: 0 5px;
+}
+
+.crd i
+{
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    border-radius: 5px;
+    background-color: #287EFD;
+    color: white;
+}
+
+.second-content
+{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    background-color: #F8F9FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-content p
+{
+    font-size: 24px;
+}
+
+.words
+{
+    width: 40%;
+}
+
+.author
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.author img
+{
+    width: 40px;
+    border-radius: 50%;
+}
+
+.auth
+{
+    font-size: 10px;
+    padding-top: 10px;
+}
+
+.auth span
+{
+    color: blue;
+}
+
+.card-list
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px 0;
+}
+
+.lorem
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 30%;
+    text-align: center;
+    margin: 20px 0;
+    margin-bottom: 100px;
+}
+
+.third-content
+{
+    padding: 0 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user
+{
+    position: relative;
+    width: 30%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.user img
+{
+    width: 100%;
+}
+
+
+.txt-content
+{
+    padding: 10px;
+}
+
+.text-content h4
+{
+    margin-bottom: 10px;
+}
+
+.news
+{
+    width: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
+
+.user-about
+{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+}
+
+
+.date-about
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.user-about img
+{
+    width: 43px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.email-box
+{
+    padding: 0 10%;
+    margin-bottom: 40px;
+}
+
+.box
+{
+    padding: 0 5%;
+    width: 100%;
+    height: 150px;
+    background-color: #287EFD;
+    display: flex;
+    border-radius: 10px;
+}
+
+.text
+{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.send
+{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.send p 
+{
+    color: white;
+}
+
+.email
+{
+    margin-top: 20px;
+    width: 70%;
+    height: 60px;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.button
+{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button a
+{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+
+.email input
+{
+    width: 80%;
+    height: 100%;
+    outline: none;
+    font-size: 24px;
+    border: none;
+    padding-left: 10px;
+}
+
+
+.footer
+{
+    padding: 0 10%;
+    color: white;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #212529;
+}
+
+.footer ul
+{
+    display: flex;
+
+}
+
+.footer ul li
+{
+    list-style: none;
+    margin: 0 10px;
+}
+
+.footer ul li a
+{
+    color: white;
+}
